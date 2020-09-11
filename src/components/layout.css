@@ -80,6 +80,11 @@ a:hover {
 
 /* HOME */
 
+.home-content {
+  
+  /* background: pink; */
+}
+
 /* PROJECTS */
 
 /* ABOUT */
@@ -87,8 +92,13 @@ a:hover {
 /* CONTACT */
 .contact-page {
   /* background-color: honeydew; */
+  /* border: 1px solid salmon; */
+  width: 80%;
+  background-color: rgba(184, 184, 184, .4);
+  /* rgba(237, 237, 237, .7),  */
   text-align: center;
-  margin: 3rem auto 0;
+  margin: 0 auto 0;
+  padding: 3rem 0;
   font-family: 'DM Mono', monospace;
   font-weight: 100;
   line-height: .75;

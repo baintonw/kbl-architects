@@ -5,6 +5,7 @@ module.exports = {
     author: `Will Bainton`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

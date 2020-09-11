@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       // borderBottom: `1px solid black`,
       // background: `inherit`,
       // backgroundColor: `lightgreen`,
-      marginBottom: `1.45rem`,
+      marginBottom: `.75rem`,
     
     }}
   >
@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
         // margin: `0 auto`,
         maxWidth: 1200,
         // padding: `2rem 1.0875rem 4rem 1.0875rem`,
-        padding: `2rem 0 .2rem 3rem`,
+        padding: `.5rem 0 0 1rem`,
         display: `flex`,
         // alignItems: `flex-end`,
       }}
@@ -34,10 +34,11 @@ const Header = ({ siteTitle }) => (
       <Link to="/">
         <div className="logo" style={{
           // border: `1px solid black`,
-          width: `15rem`,
-          height: `12rem`,
-          marginBottom: `1.5rem`,
-          backgroundSize: `15rem`,
+          width: `12rem`,
+          height: `10rem`,
+          marginLeft: `2rem`,
+          // marginBottom: `1.5rem`,
+          backgroundSize: `12rem`,
           backgroundRepeat: `no-repeat`,
           backgroundPosition: `center`,
           backgroundImage: `url(${logo})`,

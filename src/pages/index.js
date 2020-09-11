@@ -4,14 +4,28 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import logo from "../images/kbl-logo.png"
+import crew3 from "../images/crew-3.jpg"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div>
-      <h2>Architecture</h2>
-      <p>Welcome to the KBL's landing page</p>
+    <div className="home-content"
+         style={{
+           height: `72vh`,
+           width: `100vw`,
+          //  backgroundImage: `url(${crew3})`,
+          //  backgroundSize: `cover`,
+          //  backgroundPosition: `center`,
+          //  backgroundRepeat: `no-repeat`,
+          //  margin: `0`,
+         }}
+    >
+      <h2>Welcome to KBL</h2>
+      <div className="home-hero">
+          <p>Hello there ladies and gentlemen</p>
+      </div>
     </div>
-    <Link to="/projects/">Go to page 2</Link> <br />
   </Layout>
 )
 
