@@ -1,8 +1,41 @@
-/* html {
+html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+* {
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+
+  /* color: hotpink; */
+}
+
+a:link {
+  /* color: hotpink; */
+  color: rgba(0,0,0,.6);
+
+}
+
+a:visited {
+  color: rgba(0,0,0,.6);
+}
+
+a:active {
+  color: rgba(0,0,0,1);
+}
+
+.activeLink {
+  color: hotpink;
+}
+
+
+/*
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

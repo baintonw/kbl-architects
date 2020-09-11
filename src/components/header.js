@@ -2,6 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+//Styles
+// import "./styles/header.scss"
+
+
 //Images
 import logo from "../images/kbl-logo.png"
 
@@ -21,7 +25,7 @@ const Header = ({ siteTitle }) => (
         // margin: `0 auto`,
         maxWidth: 1200,
         // padding: `2rem 1.0875rem 4rem 1.0875rem`,
-        padding: `2rem 0 .2rem 2rem`,
+        padding: `2rem 0 .2rem 3rem`,
         display: `flex`,
         // alignItems: `flex-end`,
       }}
@@ -61,27 +65,48 @@ const Header = ({ siteTitle }) => (
           // transform: `translateY(1.75rem)`,
           margin: `0`,
         }}>
-          <Link>
+          <Link to="/projects"
+                activeStyle={{
+                  color: `hotpink`,
+                }}
+          >
             <li className="nav-item" 
                 style={{
                   margin: `0`,
+                }}
+                activeStyle={{
+                  color: `hotpink`,
                 }}>
               Projects
             </li>
           </Link>
+          <Link to="/about"
+                activeStyle={{
+                  color: `hotpink`,
+                }}
+          >
+            <li className="nav-item" 
+                style={{
+                  margin: `0`,
+                }}
+                >
+                About
+            </li>
+          </Link>
+          <Link to="/contact"
+                activeStyle={{
+                  color: `hotpink`,
+                }}
+          >
+            <li className="nav-item" 
+                style={{
+                  margin: `0`,
+                }}
+                >
+                Contact
+            </li>
+          </Link>
           
-          <li className="nav-item" 
-              style={{
-                margin: `0`,
-              }}>
-              About
-          </li>
-          <li className="nav-item" 
-              style={{
-                margin: `0`,
-              }}>
-              Contact
-          </li>
         </ul>
       </nav>
     </div>
