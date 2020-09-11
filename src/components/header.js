@@ -12,9 +12,10 @@ import logo from "../images/kbl-logo.png"
 const Header = ({ siteTitle }) => (
 
   <header
+    className="header"
     style={{
-      borderBottom: `1px solid black`,
-      background: `inherit`,
+      // borderBottom: `1px solid black`,
+      // background: `inherit`,
       // backgroundColor: `lightgreen`,
       marginBottom: `1.45rem`,
     
@@ -110,6 +111,7 @@ const Header = ({ siteTitle }) => (
         </ul>
       </nav>
     </div>
+    
   </header>
 )
 

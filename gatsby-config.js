@@ -5,6 +5,30 @@ module.exports = {
     author: `Will Bainton`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Comfortaa`,
+          `Courier Prime`,
+          `Cutive Mono`,
+          `DM Mono`,
+          `Kumbh Sans`,
+          `Hind Madurai`,
+          `Montserrat`,
+          `Kumbh Sans`,
+          `Amatic SC`,
+          `Sacramento`,
+        ],
+        display: 'swap'
+      }
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
