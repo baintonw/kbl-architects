@@ -12,19 +12,27 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="home-content"
          style={{
-           height: `72vh`,
-           width: `100vw`,
-          //  backgroundImage: `url(${crew3})`,
-          //  backgroundSize: `cover`,
-          //  backgroundPosition: `center`,
-          //  backgroundRepeat: `no-repeat`,
-          //  margin: `0`,
+           height: `71.5vh`,
+           width: `92vw`,
+           backgroundImage: `url(${crew3})`,
+           backgroundSize: `cover`,
+           backgroundPosition: `center`,
+           backgroundRepeat: `no-repeat`,
+           margin: `0`,
+           padding: `.5rem`,
+          //  clipPath: `polygon(25% 0, 45% 50%, 25% 100%, 5% 50%)`,
+
          }}
     >
-      <h2>Welcome to KBL</h2>
-      <div className="home-hero">
-          <p>Hello there ladies and gentlemen</p>
-      </div>
+      <h2 style={{
+        // color: `inherit`,
+        // textShadow: `-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000`,
+        fontWeight: `250`,
+        margin: `0rem`
+      }}>
+        Welcome to KBL
+      </h2>
+      
     </div>
   </Layout>
 )

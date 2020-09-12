@@ -18,6 +18,7 @@ const Header = ({ siteTitle }) => (
       // background: `inherit`,
       // backgroundColor: `lightgreen`,
       marginBottom: `.75rem`,
+      marginBottom: `1.4rem`,
     
     }}
   >
@@ -34,11 +35,11 @@ const Header = ({ siteTitle }) => (
       <Link to="/">
         <div className="logo" style={{
           // border: `1px solid black`,
-          width: `12rem`,
-          height: `10rem`,
+          width: `10rem`,
+          height: `8rem`,
           marginLeft: `2rem`,
           // marginBottom: `1.5rem`,
-          backgroundSize: `12rem`,
+          backgroundSize: `10rem`,
           backgroundRepeat: `no-repeat`,
           backgroundPosition: `center`,
           backgroundImage: `url(${logo})`,

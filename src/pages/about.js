@@ -7,11 +7,11 @@ import SEO from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div>
+    <div className="about-content">
       <h2>About</h2>
       {/* <p>Welcome to the KBL's landing page</p> */}
     </div>
-    <Link to="/projects/">Go to page 2</Link> <br />
+    {/* <Link to="/projects/">Go to page 2</Link> <br /> */}
   </Layout>
 )
 

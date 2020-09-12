@@ -18,10 +18,17 @@ font-family: 'Comfortaa', cursive;
 
 */
 
-html {
-  /* font-family: sans-serif; */
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+html, body, #___gatsby {
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+body {
+  margin: 0px;
+}
+
+div[role="group"][tabindex] {
+  height: 100%;
 }
 * {
   box-sizing: border-box;
@@ -78,6 +85,8 @@ a:hover {
   background-color: black;
 }
 
+/* LAYOUT */
+
 /* HOME */
 
 .home-content {
@@ -88,6 +97,9 @@ a:hover {
 /* PROJECTS */
 
 /* ABOUT */
+.about-content {
+  margin: 0 auto;
+}
 
 /* CONTACT */
 .contact-page {
